@@ -195,5 +195,5 @@ Outputs:
     Value: !Ref RedirectCloudFrontDistribution
     
 # aws cloudformation create-stack --stack-name domain-web --template-body file://./web.yml --parameters \
-# ParameterKey=DomainName,ParameterValue=YOUR_DOMAIN_NAME.com
+# ParameterKey=DomainName,ParameterValue=YOUR_DOMAIN_NAME.com \
 # ParameterKey=HostedZoneId,ParameterValue=XXXXXXXXXXX
