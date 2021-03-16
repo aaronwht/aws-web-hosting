@@ -41,7 +41,7 @@ Resources:
   WWWBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub "www.${DomainName}"
+      BucketName: !Sub "www-${DomainName}"
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: index.html
